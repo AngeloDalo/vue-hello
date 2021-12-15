@@ -18,6 +18,16 @@
     methods: {
         addOneObject: function() {
             this.number += 1;
+        },
+        removeOneObject: function () {
+            if (this.number > 0) {
+                this.number -= 1;
+            }
+        },
+        noObject: function () {
+            if (this.number > 0) {
+                this.number = 0;
+            }
         }
     }
 })
