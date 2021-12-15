@@ -18,6 +18,11 @@
             <input type="text" v-model="text">
             <p>{{ text }}</p>
         </div>
+        <div>
+            <img :src="object" alt="mars">
+            <span>{{ number }}</span>
+            <button @click="addOneObject">Aggiungi oggetto</button>
+        </div>
     </div>    
 <script src="script.js"></script>
 </body>
