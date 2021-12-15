@@ -13,7 +13,12 @@
           {{ message }}
         </h1>
         <img :src="image" alt="mars">
-    </div>
+        <div>
+            <label for="text">testo:</label>
+            <input type="text" v-model="text">
+            <p>{{ text }}</p>
+        </div>d
+    </div>    
 <script src="script.js"></script>
 </body>
 </html>
